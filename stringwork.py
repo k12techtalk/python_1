@@ -8,13 +8,15 @@ word = "krish.macdonald"
 #this example creates var "kri"
 word1 = word[0:3]
 #this example creates var "krish"
-word2 = word[0:6]
+word2 = word[0:5]
 #this example creates var "macdonald"
-word3 = word[7:16]
+word3 = word[6:16]
 
+#source variable
+print("This is the base data:",word)
 #this prints "kri"
-print(word1)
+print("This takes the first 3 characters:",word1)
 #this prints "krish"
-print(word2)
+print("This takes the first 5 characters:",word2)
 #this prints "Macdonald"
-print(word3.capitalize())
+print("This takes the characters 7 through 15:",word3.capitalize())
